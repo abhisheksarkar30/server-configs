@@ -1,0 +1,18 @@
+management:
+  endpoint:
+    env:
+      show-values: WHEN_AUTHORIZED
+  endpoints:
+    web:
+      exposure:
+        include:
+        - refresh
+        - busrefresh # previously known as bus-refresh
+        - configprops
+        - env
+        - health
+        
+limits-service:
+  min=2
+limits-service:
+  max=20
