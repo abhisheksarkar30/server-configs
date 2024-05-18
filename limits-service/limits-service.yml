@@ -14,5 +14,4 @@ management:
         
 limits-service:
   min=2
-limits-service:
   max=20
