@@ -11,8 +11,9 @@ management:
         - configprops
         - env
         - health
-   security:
-     enabled: false
+  security:
+    enabled: false
+    
 limits-service:
   min: 2
   max: 20
